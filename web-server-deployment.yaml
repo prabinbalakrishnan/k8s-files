@@ -17,7 +17,7 @@ spec:
         image: gcr.io/may2021-dtc210/web-server-image:v1.0.0
         env: 
         - name: API_SERVER
-          value: "http://demo-api-service:8082"
+          value: "http://demo-api-service.production:8082"
         ports:
         - containerPort: 8080
             
